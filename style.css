@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.head {
+	  width: 100%;
+	  height: 62px;
+	  margin: 0 0 80px;
+	  padding: 10px 531px 10px 30px;
+	  background-color: #40464f;
+}
+
+.foot {
+	width: 100%;
+  	height: 110px;
+  	margin: 40px 0 0;
+  	padding: 20px 785px 15px 500px;
+  	background-color: #40464f;
+  	position: absolute;
+  	bottom: 0;
+}
+
+
+.m{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.head_content{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.bebra {
+	color: white;
+	font-size: 20px;
+}
+
+.bebra_s {
+	color: white;
+	font-size: 20px;
+}
