@@ -42,9 +42,18 @@ footer {
 .bebra {
 	color: #fff;
 	font-size: 18px;
-	width: 150px;
+	margin-left: 80px;
 	font-family: 'Roboto', sans-serif;
-
+	transition: width 0.3s ease-out;
+}
+.bebra:after{
+	}
+.bebra:hover{
+	color: #e8b32e;
+	
+}
+.bebra p:hover:after{
+	width: 100%;
 }
 
 .logo span {
@@ -52,10 +61,22 @@ footer {
 	color: white;
 	font-size: 18px;
 	top: -14px;
+	left: 8px;
 	font-family: 'Playfair Display', serif;
 
 	
 }
 .logo{
 	margin: 10px;
+}
+.bebra p:after{
+	display: block;
+	position: relative;
+	left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+	width: 0;/*задаём длинну линии до наведения курсора*/
+	height: 2px; /*задаём ширину линии*/
+	background-color: #e8b32e; /*задаём цвет линии*/
+	content: "";
+	transition: width 0.3s ease-out;
+
 }
