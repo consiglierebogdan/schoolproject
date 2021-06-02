@@ -96,7 +96,7 @@ h1{
 }
 .search{
 	width: 940px;
-	height: 40px;
+	height: 50px;
 	border: 1px solid #bcc1c8;
 	border-radius: 10px;
 	background: #fff;
@@ -124,18 +124,19 @@ h1{
 	justify-content: space-around;
 	align-items: center;	
 	max-width: 940px;
-	height: 40px;
+	height: 50px;
 	border-top: 1px solid #bcc1c8;
 	border-left: 1px solid #bcc1c8;
 	border-right: 1px solid #bcc1c8;
 	background: #fff;
+	border-radius: 10px 10px 1px 1px;
 }
 .q{
 	display:flex;
 	justify-content: space-around;
 	align-items: center;	
 	max-width: 940px;
-	height: 40px;
+	height: 62px;
 	border-top: 1px solid #bcc1c8;
 	border-left: 1px solid #bcc1c8;
 	border-right: 1px solid #bcc1c8;
@@ -150,29 +151,21 @@ h1{
 	background: #f4f5f6;
 	border-left: 4px solid Gold;
 }
-.names{
+.photos{
 	width: 200px;
 	font-size: 18px;
+}
+.photo{
+	width: 200px;
+	font-size: 16px;
 }
 .pibs{
-	width: 200px;
+	width: 600px;
 	font-size: 18px;
-}
-.numbers{
-	width: 200px;
-	font-size: 18px;
-}
-.num{
-	width: 20px;
-	font-size: 16px;
-}
-.name{
-	width: 200px;
-	font-size: 16px;
 }
 .pib{
-	width: 200px;
-	font-size: 16px;
+	width: 500px;
+	font-size: 18px;
 }
 .img{
 	width: 20px;
