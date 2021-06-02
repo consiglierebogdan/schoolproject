@@ -3,6 +3,9 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+a{
+	text-decoration: none;
+}
 
 header {
 	display: flex;
@@ -26,10 +29,10 @@ footer {
 
 .m{
 	display: flex;
-	margin-left: 400px;
-	
+	margin-left: 350px;
+	border: 1px solid #fff;
 	justify-content: space-between;
-	
+	align-content: center;
 }
 
 .head_content{
@@ -72,10 +75,10 @@ footer {
 .bebra p:after{
 	display: block;
 	position: relative;
-	left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
-	width: 0;/*задаём длинну линии до наведения курсора*/
-	height: 2px; /*задаём ширину линии*/
-	background-color: #e8b32e; /*задаём цвет линии*/
+	left: 0; 
+	width: 0;
+	height: 2px; 
+	background-color: #e8b32e;
 	content: "";
 	transition: width 0.3s ease-out;
 
