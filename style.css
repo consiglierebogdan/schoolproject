@@ -87,6 +87,7 @@ header {
 h1{
 	font-family: 'Ledger', serif;
 	font-weight: 300;
+	margin-bottom: 40px;
 }
 .container{
 	margin: 0 auto;
@@ -100,6 +101,10 @@ h1{
 	border-radius: 10px;
 	background: #fff;
 	margin-bottom: 30px;
+	background: url(img/search-white-48-dp.png) no-repeat 3px 1px, #fff;
+    background-size: auto 90%;
+    padding-left: 40px;
+	/*background: url(img/search-white-48-dp.png) no-repeat center left;*/
 }
 .sortirovka{
 	display: flex;
