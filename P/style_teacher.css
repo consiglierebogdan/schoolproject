@@ -1,0 +1,229 @@
+@font-face {
+	font-family: 'Avenir Next Cyr Regular';
+	src: url('fonts/AvenirNextCyr-Regular.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+body{
+	background: #f4f5f6;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+footer {
+	width: 100%;
+  	height: 110px;
+  	background-color: #40464f;
+  	position: absolute;
+  	bottom: 0;
+}
+header {
+	display: flex;
+	width: 100%;
+	height: 62px;
+	background-color: #40464f;
+	align-content: space-around;
+	justify-content: space-between;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+.m{
+	display: flex;
+	margin-left: 400px;
+	
+	justify-content: space-between;
+	
+}
+
+.head_content{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	align-content: space-around;
+}
+
+.bebra {
+	color: #fff;
+	font-size: 18px;
+	margin-left: 80px;
+	font-family: 'Avenir Next Cyr Regular';
+	transition: width 0.3s ease-out;
+}
+
+.bebra:hover{
+	color: #e8b32e;
+}
+.bebra p:after{
+	display: block;
+	position: relative;
+	left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+	width: 0;/*задаём длинну линии до наведения курсора*/
+	height: 2px; /*задаём ширину линии*/
+	background-color: #e8b32e; /*задаём цвет линии*/
+	content: "";
+	transition: width 0.3s ease-out;
+}
+.bebra p:hover:after{
+	width: 100%;
+}
+
+.logo span {
+	position: relative;
+	color: white;
+	font-size: 18px;
+	top: -14px;
+	left: 8px;
+	font-family: 'Playfair Display', serif;
+
+	
+}
+.logo{
+	margin: 10px;
+}
+.bebra p:after{
+	display: block;
+	position: relative;
+	left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+	width: 0;/*задаём длинну линии до наведения курсора*/
+	height: 2px; /*задаём ширину линии*/
+	background-color: #e8b32e; /*задаём цвет линии*/
+	content: "";
+	transition: width 0.3s ease-out;
+
+}
+
+
+
+
+h1{
+	font-family: 'Ledger', serif;
+	font-weight: 300;
+	margin-bottom: 40px;
+}
+
+/* Setting Main Content*/
+
+.container{
+	margin: 0 auto;
+	max-width: 960px;
+	margin-top: 100px;
+}
+.search{
+	width: 960px;
+	height: 40px;
+	border: 1px solid #bcc1c8;
+	border-radius: 10px;
+	background: #fff;
+	margin-bottom: 30px;
+	background: url(img/search-white-48-dp.png) no-repeat 3px 1px, #fff;
+    background-size: auto 90%;
+    padding-left: 40px;
+	font-family: 'Avenir Next Cyr Regular';
+	/*background: url(img/search-white-48-dp.png) no-repeat center left;*/
+}
+.sortirovka{
+	display: flex;
+	max-width: 940px;
+	height: 20px;
+	border-top: 1px solid #bcc1c8;
+	border-left: 1px solid #bcc1c8;
+	border-right: 1px solid #bcc1c8;
+	background: #fff;
+	border-radius: 10px 10px 1px 1px;
+}
+.sortttt{
+	float: right;
+}
+.hide{
+	display: none;
+}
+.zag{
+	display:flex;
+	justify-content: space-around;
+	align-items: center;	
+	max-width: 960px;
+	height: 50px;
+	border-top: 1px solid #bcc1c8;
+	border-left: 1px solid #bcc1c8;
+	border-right: 1px solid #bcc1c8;
+	background: #fff;
+	border-radius: 10px 10px 1px 1px;
+}
+.q{
+	display:flex;
+	justify-content: space-around;
+	align-items: center;	
+	max-width: 960px;
+	height: 62px;
+	border-top: 1px solid #bcc1c8;
+	border-left: 1px solid #bcc1c8;
+	border-right: 1px solid #bcc1c8;
+	background: #fff;
+
+}
+.q:last-child{
+	border-radius: 1px 1px 10px 10px;
+	border-bottom: 1px solid #bcc1c8;
+	}
+.q:hover{
+	background: #f4f5f6;
+	border-left: 4px solid Gold;
+}
+.photos{
+	width: 200px;
+	font-family: 'Avenir Next Cyr Regular';
+	font-weight: 600;
+	color: #25282d;
+}
+.photo{
+	width: 200px;
+	font-size: 16px;
+}
+.pibs{
+	width: 600px;
+	font-family: 'Avenir Next Cyr Regular';
+	font-weight: 600;
+	color: #25282d;
+}
+.pib{
+	width: 500px;
+	font-family: 'Avenir Next Cyr Regular';
+	font-weight: 600;
+	color: #25282d;
+}
+.img{
+	width: 20px;
+	font-size: 16px;
+}
+
+/* No-results */
+.no-results{
+	display: none;
+	width: 960px;
+	border-top: 1px solid #bcc1c8;
+	border-left: 1px solid #bcc1c8;
+	border-right: 1px solid #bcc1c8;
+	height: 62px;
+	background-color: #fff;
+	justify-content: space-between;
+	align-items: center;
+}
+.no-results span{
+	width: 166px;
+	margin: auto; 
+	height: 22px;
+	font-family: "Avenir Next Cyr Regular";
+	font-size: 18px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #5c6470;
+}
