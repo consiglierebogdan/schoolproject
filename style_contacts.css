@@ -1,0 +1,108 @@
+@font-face {
+	font-family: 'Avenir Next Cyr Regular';
+	src: url('fonts/AvenirNextCyr-Regular.ttf');
+	font-weight: normal;
+	font-style: normal;
+	}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #f4f5f6;
+}
+
+header {
+	display: flex;
+	width: 100%;
+	height: 62px;
+	background-color: #40464f;
+}
+
+
+footer {
+	width: 100%;
+  	height: 70px;
+	font-family: 'Avenir Next Cyr Regular';
+  	background-color: #40464f;
+  	position: absolute;
+  	bottom: 0;
+}
+
+
+.m{
+	display: flex;
+	width: 800px;
+	margin-left: 250px;
+	justify-content: space-around;
+	align-content: center;
+}
+.head_content{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	align-content: space-between;
+}
+
+.bebra {
+	display: block;
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Avenir Next Cyr Regular';       
+	transition: width 0.3s ease-out;
+}
+.bebra:hover{
+	color: #e8b32e;
+	
+}
+.bebra p:hover:after{
+	width: 100%;
+}
+.bebra p:after{
+	display: block;
+	position: relative;
+	left: 0; 
+	width: 0;
+	height: 2px; 
+	background-color: #e8b32e;
+	content: "";
+	transition: width 0.3s ease-out;
+
+}
+.logo span {
+	position: relative;
+	color: white;
+	font-size: 18px;
+	top: -14px;
+	font-family: 'Playfair Display', serif;	
+}
+
+a{
+	text-decoration: none;
+}
+
+.logo{
+	margin: 10px;
+}
+
+button{
+	margin: 10px;
+	background-color: #e8b32e;
+	border: 1px solid #e8b32e;
+	padding: 5px;
+	border-radius: 5px;
+	color: white;
+}
+.footer-content{
+	z-index: 1000;
+}
+
+.map{
+	position: absolute;
+	top: 500px;
+	left: 150px;
+	border:1px solid black;
+	border-radius: 10px;
+}

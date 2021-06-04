@@ -1,0 +1,192 @@
+@font-face {
+	font-family: 'Avenir Next Cyr Regular';
+	src: url('fonts/AvenirNextCyr-Regular.ttf');
+	font-weight: normal;
+	font-style: normal;
+	}
+body{
+	background: #f4f5f6;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+footer {
+	width: 100%;
+  	height: 70px;
+	font-family: 'Avenir Next Cyr Regular';
+  	background-color: #40464f;
+  	position: absolute;
+  	bottom: 0;
+}
+.footer-content{
+	z-index: 1000;
+	font-family: 'Avenir Next Cyr Regular';
+}
+header {
+	display: flex;
+	width: 100%;
+	height: 62px;
+	background-color: #40464f;
+
+}
+.m{
+	display: flex;
+	width: 800px;
+	margin-left: 250px;
+	justify-content: space-around;
+	align-content: center;
+}
+
+.head_content{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	align-content: space-between;
+}
+
+.bebra {
+	display: block;
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Avenir Next Cyr Regular';       
+	transition: width 0.3s ease-out;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.bebra:hover{
+	color: #e8b32e;
+	
+}
+.bebra p:hover:after{
+	width: 100%;
+}
+
+.logo span {
+	position: relative;
+	color: white;
+	font-size: 18px;
+	top: -14px;
+	left: 8px;
+	font-family: 'Playfair Display', serif;
+
+	
+}
+.logo{
+	margin: 10px;
+}
+.bebra p:after{
+	display: block;
+	position: relative;
+	left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+	width: 0;/*задаём длинну линии до наведения курсора*/
+	height: 2px; /*задаём ширину линии*/
+	background-color: #e8b32e; /*задаём цвет линии*/
+	content: "";
+	transition: width 0.3s ease-out;
+
+}
+
+
+
+
+h1{
+	font-family: 'Ledger', serif;
+	font-weight: 300;
+	margin-bottom: 40px;
+}
+.container{
+	margin: 0 auto;
+	max-width: 940px;
+	margin-top: 200px;
+}
+.search{
+	width: 940px;
+	height: 40px;
+	border: 1px solid #bcc1c8;
+	border-radius: 10px;
+	background: #fff;
+	margin-bottom: 30px;
+	background: url(img/search-white-48-dp.png) no-repeat 3px 1px, #fff;
+    background-size: auto 90%;
+    padding-left: 40px;
+	/*background: url(img/search-white-48-dp.png) no-repeat center left;*/
+}
+.sortirovka{
+	display: flex;
+	max-width: 940px;
+	height: 20px;
+	border-top: 1px solid #bcc1c8;
+	border-left: 1px solid #bcc1c8;
+	border-right: 1px solid #bcc1c8;
+	background: #fff;
+	border-radius: 10px 10px 1px 1px;
+}
+.sortttt{
+	float: right;
+}
+.zag{
+	display:flex;
+	justify-content: space-around;
+	align-items: center;	
+	max-width: 940px;
+	height: 40px;
+	border-top: 1px solid #bcc1c8;
+	border-left: 1px solid #bcc1c8;
+	border-right: 1px solid #bcc1c8;
+	background: #fff;
+}
+.q{
+	display:flex;
+	justify-content: space-around;
+	align-items: center;	
+	max-width: 940px;
+	height: 40px;
+	border-top: 1px solid #bcc1c8;
+	border-left: 1px solid #bcc1c8;
+	border-right: 1px solid #bcc1c8;
+	background: #fff;
+
+}
+.q-5{
+	border-radius: 1px 1px 10px 10px;
+	border-bottom: 1px solid #bcc1c8;
+	}
+.q:hover{
+	background: #f4f5f6;
+	border-left: 4px solid Gold;
+}
+.names{
+	width: 200px;
+	font-size: 18px;
+}
+.pibs{
+	width: 200px;
+	font-size: 18px;
+}
+.numbers{
+	width: 200px;
+	font-size: 18px;
+}
+.num{
+	width: 20px;
+	font-size: 16px;
+}
+.name{
+	width: 5px;
+	font-size: 16px;
+}
+.pib{
+	width: 200px;
+	font-size: 16px;
+}
+.img{
+	width: 20px;
+	font-size: 16px;
+}
