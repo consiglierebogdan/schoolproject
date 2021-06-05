@@ -90,18 +90,33 @@ a{
 
 
 .main{
-
 	width: 940px;
 	margin: 180px auto ;
 }
+.back{
+	border: 1px solid #000;
+	color: #e8b32e;
+	position: relative;
+	margin-bottom: 40px;
+}
+.back_img{
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+}
+.back_text{
+	padding-left: 30px;
+	font-size: 18px;
+}
 .block_name{
-
 	width: 940px;
 	height: 130px;
 	margin: 0 auto 30px;;
 	position: relative;
 	background:  #749bd2;
 	border-radius: 5px;
+	border: 1px solid #000;
 }
 .block_name_text{
 	color: #fff;
@@ -322,7 +337,6 @@ a{
 	margin-bottom: 10px;
 }
 .down_2{
-
 	width: 460px;
 	height: 197px;
 	margin: 0 auto;
