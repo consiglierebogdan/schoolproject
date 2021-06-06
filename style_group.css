@@ -20,6 +20,7 @@ footer {
   	background-color: #40464f;
   	position: absolute;
   	bottom: 0;
+	  padding: 10px;
 }
 /* Setting Header */
 header {

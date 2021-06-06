@@ -29,6 +29,7 @@ footer {
   	background-color: #40464f;
   	position: absolute;
   	bottom: 0;
+	padding: 10px;
 }
 
 
@@ -97,6 +98,7 @@ button{
 }
 .footer-content{
 	z-index: 1000;
+
 }
 
 .map{

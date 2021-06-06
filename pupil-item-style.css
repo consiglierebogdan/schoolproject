@@ -19,6 +19,7 @@ footer {
   	background-color: #40464f;
   	position: relative;
   	bottom: 0;
+	padding: 10px;
 }
 header {
 	display: flex;
@@ -106,7 +107,11 @@ a{
 }
 .back_text{
 	padding-left: 30px;
-	font-size: 18px;
+	padding-top: 1px;
+	font-family: 'Avenir Next Cyr Regular';
+  	font-size: 18px;
+  	font-weight: 500;
+	color: #e8b32e;
 }
 .block_name{
 	width: 940px;
@@ -139,7 +144,7 @@ a{
 	position: relative;
 }
 .photo{
-
+	display: flex;
 	width: 380px;
 	height: 421px;
 	margin: 0 auto ;
@@ -149,9 +154,10 @@ a{
 	position: absolute;
 	border-radius: 5px;
 	background: #fff;
+	justify-content: center;
 }
 .photo img{
-	width: 380px;
+	width: auto;
 	height: 421px;
 }
 .info{
